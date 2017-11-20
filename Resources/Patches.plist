@@ -288,6 +288,14 @@
 		</dict>
 		<dict>
 			<key>Path</key>
+			<string>/Firefox.app/Contents/MacOS/firefox</string>
+			<key>Section</key>
+			<string>NVDA</string>
+			<key>Flags</key>
+			<string>PF::MatchSuffix</string>
+		</dict>
+		<dict>
+			<key>Path</key>
 			<string>/Applications/iTunes.app/Contents/MacOS/iTunes</string>
 			<key>Section</key>
 			<string>KEGVA</string>
@@ -418,7 +426,23 @@
 		</dict>
 		<dict>
 			<key>Path</key>
-			<string>/Firefox.app/Contents/MacOS/firefox</string>
+			<string>/Slack.app/Contents/MacOS/Slack</string>
+			<key>Section</key>
+			<string>NVDA</string>
+			<key>Flags</key>
+			<string>PF::MatchSuffix</string>
+		</dict>
+		<dict>
+			<key>Path</key>
+			<string>/Visual Studio Code.app/Contents/MacOS/Electron</string>
+			<key>Section</key>
+			<string>NVDA</string>
+			<key>Flags</key>
+			<string>PF::MatchSuffix</string>
+		</dict>
+		<dict>
+			<key>Path</key>
+			<string>/Google Chrome.app/Contents/MacOS/Google Chrome</string>
 			<key>Section</key>
 			<string>NVDA</string>
 			<key>Flags</key>
